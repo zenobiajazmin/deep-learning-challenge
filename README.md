@@ -24,7 +24,17 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 - Identification columns: The "EIN" and "NAME" columns are identification columns that typically provide unique identifiers for each organization. These columns usually have no direct impact on the target variable and can be dropped without affecting the model's accuracy.
 
 **Compiling, Training, and Evaluating the Model**
+
 *How many neurons, layers, and activation functions did you select for your neural network model, and why?*
+
 *Were you able to achieve the target model performance?*
+I was not able to achieve the target model performance of 75%.
+
 *What steps did you take in your attempts to increase model performance?*
+I created a defined function 
+![image](https://github.com/user-attachments/assets/8b268b4a-63cc-4959-a5b1-ee397c8ca358)
+
+That allowed for the code to be auto-optimization to get the best model and hyperparameters to obtain accuracy higher even though never got to over 75%. The activation function used throughout this model is sigmoid.
+
 ### Summary
+Even though after changing layers, neurons, and activation function to achieve the target model perfomance of 75%.
